@@ -13,10 +13,8 @@ CSV Module: To save the simulation data to a CSV file.
 ## How It Works:
 The project simulates population growth using the following logistic growth equation:
 
-\[
-\frac{dP}{dt} = rP \left(1 - \frac{P}{K}\right) + \text{immigration\_rate}
-\]
-
+dP/dt =rP(1− P/k) + immigration_rate
+​	
 Where:
 - \(P\) is the population size.
 - \(r\) is the growth rate.
@@ -25,9 +23,7 @@ Where:
 
 The model can include seasonal variations where \(K_t\) changes periodically:
 
-\[
-K_t = K \left(1 + \text{seasonal\_factor} \cdot \sin\left(\frac{2\pi t}{365}\right)\right)
-\]
+K_t =K(1+seasonal_factor⋅sin( 365/2πt))
 
 The population growth is simulated over time, and the plot shows how the population evolves based on user-defined parameters.
 
@@ -75,4 +71,10 @@ Simulation results, including the time series of population values, are exportab
 4. Export the plot and description to PDF by clicking "Export to PDF."
 5. Save the simulation data (time and population) to a CSV file by clicking "Save Data to CSV."
 
-#Screenshots
+   #Screenshots
+<img width="1601" alt="Screenshot 2024-10-07 at 5 26 37 PM" src="https://github.com/user-attachments/assets/0374203e-8d00-4728-86c9-be7b64365d65">
+<img width="1601" alt="Screenshot 2024-10-07 at 5 25 07 PM" src="https://github.com/user-attachments/assets/6c9d72a0-4b45-4229-9a6a-5e74710bef6e">
+![Screenshot 2024-09-26 at 8 30 24 PM](https://github.com/user-attachments/assets/e7e147d3-8d91-46a9-851a-3f63fcb6975a)
+
+
+
